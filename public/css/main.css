@@ -1,0 +1,1412 @@
+﻿body {
+    font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+p, ul, ol {
+}
+
+/*Header*/
+header {
+    width: 100%;
+    float: left;
+    box-shadow: 0 2px 10px #0000007a;
+    z-index: 1;
+    position: relative;
+}
+
+.header_padding {
+    padding: 0 1em;
+}
+
+.info_nav {
+}
+
+    .info_nav a {
+        display: inline-block;
+        margin-left: 9px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: .5px;
+    }
+
+.nav_padding li a {
+    padding-right: 1.6rem !important;
+    padding-left: 1.6rem !important;
+    transition: .4s ease-in-out;
+}
+
+    .nav_padding li a:hover {
+        color: #db0a23 !important;
+    }
+
+.below_banner {
+    width: 100%;
+    float: left;
+    padding: 16px 3em;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+    .below_banner h2 {
+        font-size: 40px;
+        font-weight: 300;
+        color: #656161;
+        text-align: left;
+        margin: 0;
+    }
+/*homeSection2*/
+.homeSection2 {
+    width: 100%;
+    float: left;
+    padding: 5em 3em 3em;
+}
+
+.title_head {
+    font-weight: 800;
+}
+
+.title_head2 {
+    font-weight: 800;
+    font-size: 2.3em;
+}
+
+.grid_cate {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border: 2px solid #d4d4d4;
+    padding: 19px 10px 12px;
+    margin-top: 1em;
+    border-radius: 21px;
+    box-shadow: 3px 1px 18px #0000002e;
+    transition: .4s ease-in-out;
+}
+
+    .grid_cate:hover {
+        border-color: #db0a23;
+    }
+
+    .grid_cate img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 13px;
+    }
+
+    .grid_cate .title h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000 !important;
+    }
+
+.homeSection3 {
+    width: 100%;
+    float: left;
+    padding: 5em 3em;
+    background: #f5f7fa;
+}
+
+.divider_line {
+    width: 100px;
+    height: 2px;
+    background: #db0a23;
+}
+
+.homeSection3 .uk-card-title {
+    font-size: 15px;
+}
+
+.homeSection3 .uk-card-body {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.homeSection4 {
+    width: 100%;
+    float: left;
+    padding: 5em 3em;
+}
+
+.div_section3 {
+    position: relative;
+}
+
+.icon_style {
+    width: 100px;
+    height: 100px;
+    top: -3px;
+    line-height: 91px;
+    background: #f5f5f5;
+    border-radius: 100%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #e8e8e8;
+}
+
+    .icon_style img {
+        width: 40px;
+        height: 40px;
+    }
+
+.section3_grid {
+    padding-left: 7.5em;
+    margin: 3em 0;
+    position: relative;
+}
+
+    .section3_grid h4 {
+        margin: 0 0 12px;
+        font-size: 1.6em;
+        font-weight: 300;
+        color: #db0a23;
+    }
+
+    .section3_grid p {
+        margin: 0;
+    }
+/*home_recent*/
+.home_recent {
+    width: 100%;
+    float: left;
+    padding: 5em 3em;
+    background: #f5f7fa;
+}
+
+.recent_grid {
+    border-radius: 4px;
+    overflow: hidden
+}
+
+    .recent_grid img {
+        border-radius: 4px;
+    }
+
+    .recent_grid h4 {
+        margin: 10px 0 0;
+        text-align: center;
+    }
+/*home_reviews*/
+.home_reviews {
+    width: 100%;
+    float: left;
+    padding: 5em 3em;
+    background: #ffffff;
+}
+
+.star_rating i {
+    margin-right: 2px;
+    color: #ffd800;
+}
+
+.quote_box {
+    background: #f3f0f7;
+    padding: 2em;
+    border-radius: 16px;
+}
+
+.reView_AuthoR {
+    position: relative;
+    margin-top: 1em;
+}
+
+    .reView_AuthoR img {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    .reView_AuthoR .author_head {
+        padding-left: 6em;
+    }
+
+        .reView_AuthoR .author_head h4 {
+            margin: 4px 0;
+            font-size: 17px;
+        }
+
+        .reView_AuthoR .author_head small {
+            display: block;
+        }
+
+        .reView_AuthoR .author_head a {
+            display: block;
+            font-size: 14px;
+            margin: 7px 0;
+            color: #db0a23;
+            font-weight: 600;
+        }
+/*home_Topreasons*/
+.home_Topreasons {
+    width: 100%;
+    float: left;
+    padding: 3em 3em 4em;
+    background-image: url('../images/curve_ng.png');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+}
+
+.reason_Grid img {
+    width: 100px;
+    height: 100px;
+}
+
+.reason_Grid h4 {
+    margin: 20px 0 10px;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+/*home_topSellers*/
+.home_topSellers {
+    width: 100%;
+    float: left;
+    margin-top: 4em;
+}
+
+.seller_card {
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.crown {
+    position: absolute;
+    top: 10px;
+    right: 21px;
+}
+
+    .crown img {
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 0 !important;
+    }
+
+.seller_card .uk-card-body {
+    padding: 15px 5px 10px;
+}
+
+    .seller_card .uk-card-body h4 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+.seller_card .ratings {
+    color: #ffd800;
+    margin-right: 3px;
+    font-size: 13px;
+}
+
+.seller_card .uk-card-body span {
+    color: #066405;
+    font-weight: 600;
+}
+
+.seller_card .uk-card-body small {
+    font-size: 12px;
+}
+
+.seller_card .uk-card-body p {
+    margin: 0;
+}
+
+    .seller_card .uk-card-body p em {
+        font-weight: 600;
+        color: #424150 !important;
+    }
+
+.seller_card img {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    border-radius: 100%;
+}
+/*seller_reviews*/
+.seller_reviews {
+    width: 100%;
+    float: left;
+    padding: 4em 3em;
+}
+
+.sellerReVIEWgRID {
+    width: 100%;
+    float: left;
+    background: #f5f5f5;
+}
+
+    .sellerReVIEWgRID p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .sellerReVIEWgRID .author_div h4 {
+        margin: 0;
+        color: #db0a23;
+    }
+
+    .sellerReVIEWgRID .author_div strong em {
+        margin: 0;
+        color: #626a88;
+    }
+/*seller_div*/
+.seller_div {
+    width: 100%;
+    float: left;
+    background: #f3f0f7;
+    padding: 3em 3em;
+}
+
+    .seller_div h3 {
+        color: #db0a23;
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    .seller_div p {
+        font-size: 1.3rem;
+    }
+/*footer*/
+footer {
+    width: 100%;
+    float: left;
+    padding: 3.5em 3em 0;
+    background: #000;
+}
+
+.title_foot {
+    font-size: 17px;
+    color: #ddd;
+}
+
+.footer_list li a {
+    color: #949494;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.2;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+}
+
+    .footer_list li a:hover {
+        color: #db0a23;
+    }
+
+.foot_widget li strong {
+    color: #ddd;
+}
+
+.foot_widget li p {
+    margin: 0;
+}
+
+    .foot_widget li p em {
+        color: #f5f7fa;
+    }
+
+.footer_divider2 {
+    border-bottom: 1px dashed #f5f7fa26;
+    margin: 10px 0;
+}
+
+.footer_bottom {
+    padding-top: 1em;
+    margin-top: 2em;
+    border-top: 1px solid #f5f7fa1a;
+}
+
+    .footer_bottom p {
+        color: #f5f7fa47;
+    }
+
+        .footer_bottom p a {
+            color: #6b6b6b;
+        }
+/*login_screen*/
+.login_screen {
+    width: 100%;
+    float: left;
+    padding: 3em 0 4em;
+    background-image: url(../images/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-google {
+    background-color: #af0000;
+    color: #fff;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.login_screen .card {
+    background-color: #ffffffeb;
+    box-shadow: 0px 0px 10px 1px #00000087;
+}
+
+.drop_accordian .uk-accordion-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #ffffff !important;
+}
+
+.drop_accordian .uk-accordion-content a {
+    display: block;
+    line-height: 1.8;
+    color: #a2a2a2;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn-navicon {
+    border: 1px solid #000;
+    color: #db0a23;
+    padding: 0 10px;
+    line-height: 2.1;
+    transition: .4s ease-in-out;
+}
+
+    .btn-navicon:hover {
+        color: #fff !important;
+        background: #db0a23;
+        border-color: #db0a23;
+    }
+
+.screen_hide {
+    display: none;
+}
+
+.inner_banner {
+    width: 100%;
+    float: left;
+}
+
+.banner_ADs {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 1em;
+}
+
+.check_design {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #fbfbfb;
+}
+
+    .check_design .uk-accordion-title {
+        display: block;
+        font-size: 16px;
+        line-height: 1.4;
+        color: #db0a23;
+        font-weight: 700;
+        overflow: hidden;
+    }
+
+    .check_design label {
+        display: block;
+    }
+
+.category_section {
+    width: 100%;
+    float: left;
+    padding: 4em 3em;
+}
+
+.cate_grid {
+    position: relative;
+    background: #fff;
+    margin-bottom: 1.5em;
+}
+
+    .cate_grid .crown {
+        width: 40px;
+        line-height: 34px;
+        text-align: center;
+        right: 11px;
+        height: 40px;
+        background: #ffffff;
+        border-radius: 100%;
+        box-shadow: 0 0 10px #0000007a;
+    }
+
+.cate_text h4 {
+    margin: 5px 0 4px 0;
+}
+
+    .cate_text h4 a {
+        margin: 0;
+        display: block;
+        color: #000 !important;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 20px;
+        text-decoration: none !important;
+    }
+
+        .cate_text h4 a:hover {
+            color: #db0a23 !important;
+        }
+
+.cate_text .price_text {
+    color: #db0a23;
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+
+.cate_text .wishlist_circle i:hover {
+    background: #000;
+}
+
+.cate_text .wishlist_circle i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    background: #db0a23;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.seller_type {
+    position: absolute;
+    bottom: 155px;
+    background: #000000ad;
+    width: 100%;
+    text-align: center;
+}
+
+    .seller_type h4 {
+        color: #ddd;
+        margin: 0;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+        .seller_type h4 i {
+            color: #ffd800;
+        }
+
+.city_country {
+    background: #ddd;
+    text-align: center;
+}
+
+    .city_country p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+.bottom_grid {
+    position: relative;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .bottom_grid img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+.info_cate {
+    margin-top: 4px;
+}
+
+.left_info .info_cate {
+    padding-left: 1.5em;
+}
+
+    .left_info .info_cate .span_title {
+        display: block;
+        font-size: 12px;
+    }
+
+    .left_info .info_cate .span_green {
+        display: block;
+        font-size: 12px;
+        color: #2cba03;
+    }
+
+.right_info .info_cate {
+    padding-right: 2em;
+}
+
+    .right_info .info_cate .span_title {
+        display: block;
+        font-size: 12px;
+        text-align: right;
+    }
+
+    .right_info .info_cate .span_green {
+        display: block;
+        font-size: 12px;
+        text-align: right;
+        color: #2cba03;
+    }
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    header .form-control {
+        display: block;
+        width: 73%;
+    }
+
+    header .form-inline {
+        display: contents;
+    }
+
+    .mob_hidden {
+        display: none;
+    }
+
+    .screen_hide {
+        display: inline-block;
+    }
+
+    .below_banner {
+        padding: 12px 0em;
+    }
+
+        .below_banner h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .homeSection2, .homeSection3, .homeSection4, .homeSection5 {
+        padding: 2em 0 0 0;
+    }
+
+        .homeSection3 .uk-card-body {
+            padding: 15px 0px;
+        }
+
+        .homeSection3 .uk-card-title {
+            font-size: 13px;
+        }
+
+
+    .home_recent {
+        padding: 2em 0 3em 0;
+    }
+
+    .home_reviews {
+        padding: 2em 0em;
+    }
+
+    .grid_cate .title h4 {
+        font-size: 13px;
+    }
+
+    .grid_cate img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+    .grid_cate {
+        padding: 10px 8px 0px;
+    }
+
+    .uk-h2, h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_head {
+        font-weight: 800;
+        margin: 0 0 6px 0;
+    }
+
+    .pr-5, .px-5 {
+        padding-right: 0 !important;
+    }
+
+    .homeSection4 .title_head2 {
+        font-size: 1.7rem;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .section3_grid {
+        padding-left: 5.5em;
+        margin: 1em 0 1.3em;
+        position: relative;
+    }
+
+    .icon_style {
+        width: 70px;
+        height: 70px;
+        line-height: 62px;
+    }
+
+        .icon_style img {
+            width: 30px;
+            height: 30px;
+        }
+
+    .section3_grid h4 {
+        margin: 0 0 4px;
+        font-size: 1.4em;
+    }
+
+    .home_Topreasons {
+        width: 100%;
+        float: left;
+        padding: 1em 0em 0;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_reviews {
+        padding: 2em 0em;
+    }
+
+    .home_topSellers {
+        margin-top: 2em;
+    }
+
+    .mt-5, .my-5 {
+        margin-top: 1rem !important;
+    }
+
+    .seller_div h3 {
+        color: #db0a23;
+        font-size: 1.6em;
+        font-weight: 800;
+        margin: 0;
+        text-align: center;
+    }
+
+    .seller_div {
+        padding: 2em 0em;
+        text-align: center;
+    }
+
+        .seller_div p {
+            font-size: 1.1rem;
+            margin: 1px 0 10px;
+        }
+
+    footer {
+        padding: 1.5em 0em 0;
+    }
+
+        footer .list-unstyled {
+            margin: 3px 0 13px 0;
+        }
+
+    .title_foot {
+        font-size: 17px;
+        color: #ddd;
+        margin: 0 0 4px 0;
+    }
+
+    .footer_bottom {
+        padding-top: 1em;
+        margin-top: 0em;
+    }
+
+        .footer_bottom p {
+            color: #f5f7fa47;
+            font-size: 12px;
+        }
+
+    .category_section {
+        padding: 1em 0em;
+    }
+
+    .seller_type {
+        bottom: 155px;
+    }
+    .uk-pagination > * {
+        flex: none;
+        padding-left: 10px;
+        position: relative;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) and (max-width : 765px) {
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    header .form-control {
+        display: block;
+        width: 73%;
+    }
+
+    header .form-inline {
+        display: contents;
+    }
+
+    .mob_hidden {
+        display: none;
+    }
+
+    .screen_hide {
+        display: inline-block;
+    }
+
+    .below_banner {
+        padding: 12px 0em;
+    }
+
+        .below_banner h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .homeSection2, .homeSection3, .homeSection4, .homeSection5 {
+        padding: 2em 0 2em 0;
+    }
+
+        .homeSection3 .uk-card-body {
+            padding: 15px 0px;
+        }
+
+        .homeSection3 .uk-card-title {
+            font-size: 13px;
+        }
+
+
+    .home_recent {
+        padding: 2em 0 3em 0;
+    }
+
+    .home_reviews {
+        padding: 2em 0em;
+    }
+
+    .grid_cate .title h4 {
+        font-size: 13px;
+    }
+
+    .grid_cate img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+    .grid_cate {
+        padding: 10px 8px 0px;
+    }
+
+    .uk-h2, h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_head {
+        font-weight: 800;
+        margin: 0 0 6px 0;
+    }
+
+    .pr-5, .px-5 {
+        padding-right: 0 !important;
+    }
+
+    .homeSection4 .title_head2 {
+        font-size: 1.7rem;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .section3_grid {
+        padding-left: 5.5em;
+        margin: 1em 0 1.3em;
+        position: relative;
+    }
+
+    .icon_style {
+        width: 70px;
+        height: 70px;
+        line-height: 62px;
+    }
+
+        .icon_style img {
+            width: 30px;
+            height: 30px;
+        }
+
+    .section3_grid h4 {
+        margin: 0 0 4px;
+        font-size: 1.4em;
+    }
+
+    .home_Topreasons {
+        width: 100%;
+        float: left;
+        padding: 1em 0em 0;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_reviews {
+        padding: 2em 0em;
+    }
+
+    .home_topSellers {
+        margin-top: 2em;
+    }
+
+    .mt-5, .my-5 {
+        margin-top: 1rem !important;
+    }
+
+    .seller_div h3 {
+        color: #db0a23;
+        font-size: 1.6em;
+        font-weight: 800;
+        margin: 0;
+        text-align: center;
+    }
+
+    .seller_div {
+        padding: 2em 0em;
+        text-align: center;
+    }
+
+        .seller_div p {
+            font-size: 1.1rem;
+            margin: 1px 0 10px;
+        }
+
+    footer {
+        padding: 1.5em 0em 0;
+    }
+
+        footer .list-unstyled {
+            margin: 3px 0 13px 0;
+        }
+
+    .title_foot {
+        font-size: 17px;
+        color: #ddd;
+        margin: 0 0 4px 0;
+    }
+
+    .footer_bottom {
+        padding-top: 1em;
+        margin-top: 0em;
+    }
+
+        .footer_bottom p {
+            color: #f5f7fa47;
+            font-size: 12px;
+        }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .navbar-brand img {
+        width: 80%;
+    }
+
+    header .form-control {
+        display: block;
+        width: 73%;
+    }
+
+
+    .mob_hidden {
+        display: none;
+    }
+
+    .screen_hide {
+        display: inline-block;
+    }
+
+    .below_banner {
+        padding: 12px 0em;
+    }
+
+        .below_banner h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .homeSection2, .homeSection3, .homeSection4, .homeSection5 {
+        padding: 2em 0 2em 0;
+    }
+
+        .homeSection3 .uk-card-body {
+            padding: 15px 0px;
+        }
+
+        .homeSection3 .uk-card-title {
+            font-size: 13px;
+        }
+
+
+    .home_recent {
+        padding: 2em 0 3em 0;
+    }
+
+    .home_reviews {
+        padding: 2em 0em;
+    }
+
+    .grid_cate .title h4 {
+        font-size: 13px;
+    }
+
+    .grid_cate img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+    .grid_cate {
+        padding: 10px 8px 0px;
+    }
+
+    .uk-h2, h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_head {
+        font-weight: 800;
+        margin: 0 0 6px 0;
+    }
+
+    .pr-5, .px-5 {
+        padding-right: 0 !important;
+    }
+
+    .homeSection4 .title_head2 {
+        font-size: 1.7rem;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .section3_grid {
+        padding-left: 5.5em;
+        margin: 1em 0 1.3em;
+        position: relative;
+    }
+
+    .icon_style {
+        width: 70px;
+        height: 70px;
+        line-height: 62px;
+    }
+
+        .icon_style img {
+            width: 30px;
+            height: 30px;
+        }
+
+    .section3_grid h4 {
+        margin: 0 0 4px;
+        font-size: 1.4em;
+    }
+
+    .home_Topreasons {
+        width: 100%;
+        float: left;
+        padding: 1em 0em 0;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_reviews {
+        padding: 2em 0em;
+    }
+
+    .home_topSellers {
+        margin-top: 2em;
+    }
+
+    .mt-5, .my-5 {
+        margin-top: 1rem !important;
+    }
+
+    .seller_div h3 {
+        color: #db0a23;
+        font-size: 1.6em;
+        font-weight: 800;
+        margin: 0;
+        text-align: center;
+    }
+
+    .seller_div {
+        padding: 2em 0em;
+        text-align: center;
+    }
+
+        .seller_div p {
+            font-size: 1.1rem;
+            margin: 1px 0 10px;
+        }
+
+    footer {
+        padding: 1.5em 0em 0;
+    }
+
+        footer .list-unstyled {
+            margin: 3px 0 13px 0;
+        }
+
+    .title_foot {
+        font-size: 17px;
+        color: #ddd;
+        margin: 0 0 4px 0;
+    }
+
+    .footer_bottom {
+        padding-top: 1em;
+        margin-top: 0em;
+    }
+
+        .footer_bottom p {
+            color: #f5f7fa47;
+            font-size: 12px;
+        }
+
+    .seller_type {
+        position: absolute;
+        bottom: 191px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+    .nav_padding li a {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+        transition: .4s ease-in-out;
+    }
+
+    header .form-control {
+        display: block;
+        width: 73%;
+    }
+
+    header .form-inline {
+        display: contents;
+    }
+
+    .mob_hidden {
+        display: none;
+    }
+
+    .btn-navicon {
+        border: 1px solid #000;
+        color: #db0a23;
+        padding: 0 10px;
+        line-height: 2.1;
+        right: 52px;
+        position: absolute;
+        transition: .4s ease-in-out;
+    }
+
+    .screen_hide {
+        display: inline-block;
+    }
+
+    .below_banner {
+        padding: 12px 0em;
+    }
+
+        .below_banner h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .homeSection2, .homeSection3, .homeSection4, .homeSection5 {
+        padding: 2em 0 2em 0;
+    }
+
+        .homeSection3 .uk-card-body {
+            padding: 15px 0px;
+        }
+
+        .homeSection3 .uk-card-title {
+            font-size: 13px;
+        }
+
+
+    .home_recent {
+        padding: 2em 0 3em 0;
+    }
+
+    .home_reviews {
+        padding: 2em 0em;
+    }
+
+    .grid_cate .title h4 {
+        font-size: 13px;
+    }
+
+    .grid_cate img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+    .grid_cate {
+        padding: 10px 8px 0px;
+    }
+
+    .uk-h2, h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_head {
+        font-weight: 800;
+        margin: 0 0 6px 0;
+    }
+
+    .pr-5, .px-5 {
+        padding-right: 0 !important;
+    }
+
+    .homeSection4 .title_head2 {
+        font-size: 1.7rem;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .section3_grid {
+        padding-left: 5.5em;
+        margin: 1em 0 1.3em;
+        position: relative;
+    }
+
+    .icon_style {
+        width: 70px;
+        height: 70px;
+        line-height: 62px;
+    }
+
+        .icon_style img {
+            width: 30px;
+            height: 30px;
+        }
+
+    .section3_grid h4 {
+        margin: 0 0 4px;
+        font-size: 1.4em;
+    }
+
+    .home_Topreasons {
+        width: 100%;
+        float: left;
+        padding: 1em 0em 0;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .seller_reviews {
+        padding: 2em 0em;
+    }
+
+    .home_topSellers {
+        margin-top: 2em;
+    }
+
+    .mt-5, .my-5 {
+        margin-top: 1rem !important;
+    }
+
+    .seller_div h3 {
+        color: #db0a23;
+        font-size: 1.6em;
+        font-weight: 800;
+        margin: 0;
+        text-align: center;
+    }
+
+    .seller_div {
+        padding: 2em 0em;
+        text-align: center;
+    }
+
+        .seller_div p {
+            font-size: 1.1rem;
+            margin: 1px 0 10px;
+        }
+
+    footer {
+        padding: 1.5em 0em 0;
+    }
+
+        footer .list-unstyled {
+            margin: 3px 0 13px 0;
+        }
+
+    .title_foot {
+        font-size: 17px;
+        color: #ddd;
+        margin: 0 0 4px 0;
+    }
+
+    .footer_bottom {
+        padding-top: 1em;
+        margin-top: 0em;
+    }
+
+        .footer_bottom p {
+            color: #f5f7fa47;
+            font-size: 12px;
+        }
+
+    .category_section {
+        width: 100%;
+        float: left;
+        padding: 2em 1em;
+    }
+
+    .seller_type {
+        position: absolute;
+        bottom: 172px;
+    }
+}
