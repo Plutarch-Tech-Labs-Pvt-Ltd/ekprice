@@ -36,7 +36,7 @@
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li>
-                                        <a href="#">Profile</a>
+                                        <a href="{{route('profile')}}">Profile</a>
                                     </li>
                                     <li>
                                         <a href="#">Dashboard</a>

@@ -88,8 +88,18 @@ Route::prefix('admin')->group(function() {
 
 
 // Route::group(['namespace' =>'Frontend', 'middleware' => ['auth:web']], function(){
-    Route::get('/profile', 'HomeController@profile')->name('profile'); 
-    Route::post('/profile', 'HomeController@UpdateProfile'); 
+    Route::get('profile', 'HomeController@profile')->name('profile'); 
+    Route::post('profile', 'HomeController@UpdateProfile'); 
 // });
 
 Route::get('/category','Frontend\CategoryController@index');
+
+Route::get('/seller_register', 'HomeController@seller_register')->name('seller_register'); 
+Route::post('/seller_register', 'HomeController@add_seller_register')->name('seller_register'); 
+
+Route::any('/servicedetails', 'HomeController@servicedetails')->name('servicedetails');
+
+Route::post('/second_step', 'HomeController@second_step')->name('second_step'); 
+
+Route::get('/getstate', 'HomeController@getstate')->name('getstate'); 
+
